@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <h2>Formularios</h2>
+
+    <form action="/action_page.php">
+        <label for="fname">Nombre de pila</label>><br>
+        <input type="text" id="fname" name="fname" placeholder="tu nombre"><br>
+        <label for="lname">Apellido:</label><br>
+        <input type="text" id="lname" name="lname" placeholder="tu Apellido"><br><br>
+        <input type="radio" id="html" name="fav_language" value="HTML">
+        <br><br>
+    <label for="">Elija su idioma web favorito:</label>
+    <br>
+    
+    <input type="radio" id="html" name="fav_language" value="HTML">
+    <label for="html">HTML</label><br>
+    <input type="radio" id="css" name="fav_language" value="CSS">
+    <label for="css">CSS</label><br>
+    <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+    <label for="javascript">Javascript</label> <br><br>
+
+    <input type="checkbox" id="vehiclel" name="vehiclel" value="Bike">
+    <label for="vehiclel"> Tengo una bicicleta</label><br>
+    <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+    <label for="vehicle2"> Tengo un carro</label><br>
+    <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+    <label for="vehicle3"> Tengo un barco</label><br><br>
+
+        <input type="submit" value="Entregar">
+        <input type="reset" value="Limpiar">
+        
+    </form>
+    <p>Si hace clic en el bot6n "Enviar", los datos del formulario se
+         enviaran a una pagina llamada "/action_page.php".</p>
+</body>
+</html>
